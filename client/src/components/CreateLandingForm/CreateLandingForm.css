@@ -1,0 +1,34 @@
+.create-landing-form {
+  margin: 0 auto;
+  width: 300px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__input {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  &__submit {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 3px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
